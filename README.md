@@ -55,6 +55,9 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [iLEAPP](https://github.com/abrignoni/iLEAPP) - iOS Logs, Events, And Plist Parser.
 - [Keychain Dumper](https://github.com/ptoomey3/Keychain-Dumper) - A tool to check which keychain items are available to an attacker once an iOS device has been jailbroken.
 - [BinaryCookieReader](https://github.com/as0ler/BinaryCookieReader) - A tool to read the binarycookie format of Cookies on iOS applications.
+- [PList Viewer](https://github.com/TingPing/plist-viewer) - Gtk application to view property list files.
+- [XMachOViewer](https://github.com/horsicq/XMachOViewer) - A Mach-O viewer for Windows, Linux and MacOS.
+- [MachO-Explorer](https://github.com/DeVaukz/MachO-Explorer) - A graphical Mach-O viewer for macOS. Powered by Mach-O Kit.
 - [iFunbox](https://www.i-funbox.com/en/index.html) - A general file management software for iPhone and other Apple products.
 - [3uTools](http://www.3u.com/) - An All-in-One management software for iOS devices.
 - [iTools](https://www.thinkskysoft.com/itools/) - An All-in-One solution for iOS devices management.
@@ -64,6 +67,8 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [Frida](https://github.com/frida/frida) - Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.
 - [frida-gum](https://github.com/frida/frida-gum) - Cross-platform instrumentation and introspection library written in C.
 - [Fridax](https://github.com/NorthwaveSecurity/fridax) - Fridax enables you to read variables and intercept/hook functions in Xamarin/Mono JIT and AOT compiled iOS/Android applications.
+- [iproxy](https://github.com/libimobiledevice/libusbmuxd) - A utility allows binding local TCP ports so that a connection to one (or more) of the local ports will be forwarded to the specified port (or ports) on a usbmux device.
+- [itunnel](https://code.google.com/archive/p/iphonetunnel-usbmuxconnectbyport/downloads) - Use to forward SSH via USB.
 - [objection](https://github.com/sensepost/objection) - A runtime mobile exploration toolkit, powered by Frida, built to help you assess the security posture of your mobile applications, without needing a jailbreak.
 - [Grapefruit](https://github.com/ChiChou/grapefruit) - Runtime Application Instruments for iOS.
 - [Passionfruit](https://github.com/chaitin/passionfruit) - Simple iOS app blackbox assessment tool, powered by frida 12.x and vuejs.
@@ -79,6 +84,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 <a name="frida-scripts"></a>
 ### Frida Scripts
 - [FridaSwiftDump](https://github.com/neil-wu/FridaSwiftDump/) - A Frida script for retriving the Swift Object info from an running app.
+- [iOS Jailbreak Detection Bypass](https://github.com/neil-wu/FridaSwiftDump/) - A Frida script used for bypass iOS jailbreak detection by hooking some methods and functions.
 
 ## Tweaks
 
@@ -88,10 +94,23 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [iGameGod](https://iosgods.com/repo/) - Cheat Engine, Speed Manager, Auto Touch, Device Spoofer & App Decryptor.
 - [CrackerXI](http://cydia.iphonecake.com/) - Tool to Decrypt iOS Apps, based on BFInject, Supports Electra as well as Unc0ver Jailbreaks.
 - [flexdecrypt](https://repo.packix.com/) - Command line tool for decrypting Mach-O binaries.
+- [Flex 3 Beta](https://getdelta.co/) - Flex gives you the power to modify apps and change their behavior, with no coding experience needed.
+- [OpenSSH](https://cydia.saurik.com/package/openssh/) - secure remote access between machines.
+- [Apple File Conduit "2"](https://cydia.saurik.com/package/com.saurik.afc2d/) - Unlocks filesystem access over USB on Windows or macOS on jailbroken devices.
+- [AppSync Unified](https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified) - Enables the ability to install unsigned/fakesigned iOS applications.
+- [NewTerm 2](https://chariz.com/) - A powerful terminal app for iOS.
 
 <a name="static-analysis-tweaks"></a>
 ### Jailbrek Detection Bypass Tweaks
 - [Shadow](https://ios.jjolano.me/depiction/web/me.jjolano.shadow.html) - A lightweight general jailbreak detection bypass tweak.
+- [A-Bypass](https://repo.co.kr/package/com.rpgfarm.a-bypass) - A tool that helps block some apps from accessing unauthorized space or calling functions not authorized by Apple due to jailbreak.
+- [FlyJB X](https://repo.xsf1re.kr/) - A jailbreak bypass that allows you to bypass the in-app jailbreak detection mechanism.
+- [Liberty Lite (Beta)](https://ryleyangus.com/repo/) - A general purpose jailbreak detection bypass patch..
+- [vnodebypass](https://cydia.ichitaso.com/) - An expermental tool to hide jailbreak files for bypass detection.
+- [KernBypass (Unofficial)](https://cydia.ichitaso.com) - A kernel level jailbreak detection bypass tweak.
+- [HideJB](http://cydia.saurik.com/package/com.thuthuatjb.hidejb/) - Bybass jailbreak detection in certain apps.
+- [Hestia](https://repo.packix.com/) - A global jailbreak detection bypass tweak.
+- [Choicy](http://cydia.saurik.com/package/com.opa334.choicy/) - An advanced tweak configurator.
 
 <a name="dynamic-analysis-tweaks"></a>
 ### SSL Pinning Bypass Tweaks
@@ -128,13 +147,21 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 <a name="jailbrek-detection-bypass-articles"></a>
 ### Jailbrek Detection Bypass Articles
 
+- [Bypass Jailbreak Detection with Frida in iOS applications](https://blog.attify.com/bypass-jailbreak-detection-frida-ios-applications/)
+- [iOS Swift Anti-Jailbreak Bypass with Frida](https://syrion.me/blog/ios-swift-antijailbreak-bypass-frida/)
+- [Bypassing JailBreak Detection - DVIAv2 Part 2](https://philkeeble.com/ios/reverse-engineering/iOS-Bypass-Jailbreak/)
+- [Gotta Catch 'Em All: Frida & jailbreak detection](https://www.romainthomas.fr/post/21-07-pokemongo-anti-frida-jailbreak-bypass/) - Bypass Jailbreak Detection in PokemonGO.
+
 <a name="ssl-pinning-bypass-articles"></a>
 ### SSL Pinning Bypass Articles
+
+- [SSL Pinning bypass in iOS application](https://sudonull.com/post/10665-SSL-Pinning-bypass-in-iOS-application)
 - [Bypass Facebook SSL Certificate Pinning for iOS](https://www.cyclon3.com/bypass-facebook-ssl-certificate-pinning-for-ios)
+- [Bypass SSL Pinning with LLDB on AppStore iOS apps](https://itnext.io/bypass-ssl-pinning-with-lldb-in-ios-app-b78f9e7cc9cd)
 
 ## Checklists
 
-- [iOS Pentesting Checklist](https://book.hacktricks.xyz/mobile-apps-pentesting/ios-pentesting-checklist) - by HackTricks.
+- [HackTricks iOS Pentesting Checklist](https://book.hacktricks.xyz/mobile-apps-pentesting/ios-pentesting-checklist)
 - [OWASP Mobile Application Security Verification Standard (MASVS)](https://github.com/OWASP/owasp-masvs)
 
 ## Labs
@@ -152,3 +179,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [MOBEXLER](https://mobexler.com/) - A customised virtual machine, designed to help in penetration testing of Android & iOS applications.
 - [frida Workbench](https://marketplace.visualstudio.com/items?itemName=CodeColorist.vscode-frida) - Unofficial frida workbench for VSCode.
 - [Apple Configurator](https://apps.apple.com/app/apple-configurator-2/id1037126344) - Apple Configurator features a flexible, device-centric design that enables you to configure one or dozens of devices quickly and easily.
+- [Corellium](https://www.corellium.com/) - Corellium is the only platform offering ARM-based mobile device virtualization using a custom-built hypervisor for real-world accuracy and high performance.
+- [Apple Platform Security](https://support.apple.com/en-gb/guide/security/welcome/web) - Explore Apple Platform Security.
+- [IPSW Downloads](https://ipsw.me/) - Download current and previous versions of Apple's iOS, iPadOS, macOS, watchOS, tvOS and audioOS firmware and receive notifications when new firmwares are released.
+- [theos](https://github.com/theos/theos) - A cross-platform suite of tools for building and deploying software for iOS and other platforms.
