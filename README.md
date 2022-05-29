@@ -1,4 +1,5 @@
 <!--lint disable awesome-heading-->
+
 <!--lint disable double-link-->
 # Awesome iOS Security <a href="https://github.com/Ba2dones/awesome-ios-security/"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
 
@@ -17,15 +18,15 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
   - [Reverse Engineering Tools](#reverse-engineering-tools)
   - [Static Analysis Tools](#static-analysis-tools)
   - [Dynamic Analysis Tools](#dynamic-analysis-tools)
-- [Frida Scripts](#frida-scripts)
 - [Tweaks](#tweaks)
   - [Reverse Engineering Tweaks](#reverse-engineering-tweaks)
   - [Jailbrek Detection Bypass Tweaks](#jailbrek-detection-bypass-tweaks)
   - [SSL Pinning Bypass Tweaks](#ssl-pinning-bypass-tweaks)
+- [Frida Scripts](#frida-scripts)
 - [Courses](#courses)
 - [Books](#books)
-- [Tutorials](#tutorials)
-- [Articles](#articles)
+- [Sessions & Workshops](#sessions--workshops)
+- [Articles & Tutorials](#articles--tutorials)
   - [Penetration Testing Articles](#penetration-testing-articles)
   - [Reverse Engineering Articles](#reverse-engineering-articles)
   - [Jailbrek Detection Bypass Articles](#jailbrek-detection-bypass-articles)
@@ -97,14 +98,6 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [mitmproxy](https://mitmproxy.org/) - A free and open source interactive HTTPS proxy.
 - [Burp Suite](https://portswigger.net/burp) - An advanced HTTPS proxy software.
 
-## Frida Scripts
-- [FridaSwiftDump](https://github.com/neil-wu/FridaSwiftDump/) - A Frida script for retriving the Swift Object info from an running app.
-- [iOS 13 SSL Bypass](https://codeshare.frida.re/@federicodotta/ios13-pinning-bypass/) - SSL Pinning Bypass for iOS 13.
-- [iOS 12 SSL Bypass](https://codeshare.frida.re/@machoreverser/ios12-ssl-bypass/) - SSL Pinning Bypass for iOS 12.
-- [iOS Jailbreak Detection Bypass](https://codeshare.frida.re/@liangxiaoyi1024/ios-jailbreak-detection-bypass/) - A Frida script used for bypass iOS jailbreak detection by hooking some methods and functions.
-- [iOS App Static Analysis](https://codeshare.frida.re/@interference-security/ios-app-static-analysis/) - Script for iOS app's static analysis.
-- [Touch ID Bypass](https://highaltitudehacks.com/2018/07/26/ios-application-security-part-50-touch-id-bypass-with-frida/) - A Frida script for iOS Touch/Face ID Bypass.
-
 ## Tweaks
 
 <a name="reverse-engineering-tweaks"></a>
@@ -114,6 +107,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [CrackerXI](http://cydia.iphonecake.com/) - Tool to Decrypt iOS Apps, based on BFInject, Supports Electra as well as Unc0ver Jailbreaks.
 - [flexdecrypt](https://repo.packix.com/) - Command line tool for decrypting Mach-O binaries.
 - [Flex 3 Beta](https://getdelta.co/) - Flex gives you the power to modify apps and change their behavior, with no coding experience needed.
+- [Frida](https://build.frida.re) - Frida server for iOS.
 - [OpenSSH](https://cydia.saurik.com/package/openssh/) - Secure remote access between machines.
 - [Apple File Conduit "2"](https://cydia.saurik.com/package/com.saurik.afc2d/) - Unlocks filesystem access over USB on Windows or macOS on jailbroken devices.
 - [AppSync Unified](https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified) - Enables the ability to install unsigned/fakesigned iOS applications.
@@ -137,6 +131,14 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [SSL Kill Switch 2](https://github.com/nabla-c0d3/ssl-kill-switch2) - A blackbox tool to disable SSL/TLS certificate validation - including certificate pinning - within iOS and macOS applications.
 - [SSLBypass](https://github.com/evilpenguin/SSLBypass) - An iOS SSL Pinning Bypass Tweak (iOS 8 - 14).
 
+## Frida Scripts
+- [FridaSwiftDump](https://github.com/neil-wu/FridaSwiftDump/) - A Frida script for retriving the Swift Object info from an running app.
+- [iOS 13 SSL Bypass](https://codeshare.frida.re/@federicodotta/ios13-pinning-bypass/) - SSL Pinning Bypass for iOS 13.
+- [iOS 12 SSL Bypass](https://codeshare.frida.re/@machoreverser/ios12-ssl-bypass/) - SSL Pinning Bypass for iOS 12.
+- [iOS Jailbreak Detection Bypass](https://codeshare.frida.re/@liangxiaoyi1024/ios-jailbreak-detection-bypass/) - A Frida script used for bypass iOS jailbreak detection by hooking some methods and functions.
+- [iOS App Static Analysis](https://codeshare.frida.re/@interference-security/ios-app-static-analysis/) - Script for iOS app's static analysis.
+- [Touch ID Bypass](https://highaltitudehacks.com/2018/07/26/ios-application-security-part-50-touch-id-bypass-with-frida/) - A Frida script for iOS Touch/Face ID Bypass.
+
 ## Courses
 
 - [Pentesting iOS Applications](https://www.pentesteracademy.com/course?id=2) - By PentesterAcademy.
@@ -153,26 +155,39 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [Hacking and Securing iOS Applications](https://www.oreilly.com/library/view/hacking-and-securing/9781449325213/) - By Jonathan Zdziarski.
 - [iOS Hacker's Handbook](https://www.amazon.com/iOS-Hackers-Handbook-Charlie-Miller/dp/1118204123) - By Charlie Miller.
 
-## Tutorials
+## Sessions & Workshops
 
-- [iOS + Frida Tutorial](https://youtu.be/h070-YZKOKE) - A 3-parts tutorial contains an introduction to Frida and iOS, low-level iOS interfaces (GCD, XPC, IOKit, Mach), and Objective-C instrumentation by @naehrdine.
+- [iOS + Frida Tutorial](https://youtu.be/h070-YZKOKE) - A 3-parts workshop contains an introduction to Frida and iOS, low-level iOS interfaces (GCD, XPC, IOKit, Mach), and Objective-C instrumentation by @naehrdine.
 - [Exploiting Common iOS Apps' Vulnerabilities](https://www.youtube.com/watch?v=RLzbHHoEKo8&t=19s) - A session by @ivRodriguezCA that walks through some of the most common vulnerabilities on iOS apps and shows how to exploit them.
+- [iOS Reverse Engineering With Frida](https://www.youtube.com/watch?v=miSg0Km2V-w) - How to get started in iOS RE with any PC/Mac, an iPhone, and Frida by @x71n3.
+- [iOS Application Vulnerabilities and how to find them](https://www.youtube.com/watch?v=2CKrw7ErzCY) - How to get started with hacking iOS apps, environment requirement, play ground etc. by @0ctac0der.
 
-## Articles
+## Articles & Tutorials
 
 <a name="penetration-testing-articles"></a>
 ### Penetration Testing Articles
 
+- [A Comprehensive guide to iOS Penetration Testing](https://www.getastra.com/blog/security-audit/ios-penetration-testing/)
+- [Getting Started with iOS Penetration Testing](https://blog.yeswehack.com/yeswerhackers/getting-started-ios-penetration-testing-part-1/)
+- [iOS Pentesting 101](https://www.cobalt.io/blog/ios-pentesting-101)
+- [Insecure iOS Storage - DVIAv2](https://philkeeble.com/ios/Insecure-iOS-Storage/)
+
 <a name="reverse-engineering-articles"></a>
 ### Reverse Engineering Articles
+
+- [iOS Pentesting Tools Part 1: App Decryption and class-dump](https://www.allysonomalley.com/2018/08/10/ios-pentesting-tools-part-1-app-decryption-and-class-dump/)
+- [Anti Anti Hooking/Debugging - DVIAv2](https://philkeeble.com/ios/reverse-engineering/iOS-Anti-Anti-Hooking/)
+- [Runtime Manipulation - DVIAv2](https://philkeeble.com/ios/reverse-engineering/iOS-Runtime-Manipulation/)
+- [Reverse Engineering iOS Apps - iOS 11 Edition](https://ivrodriguez.com/reverse-engineer-ios-apps-ios-11-edition-part2/)
+
 
 <a name="jailbrek-detection-bypass-articles"></a>
 ### Jailbrek Detection Bypass Articles
 
 - [Bypass Jailbreak Detection with Frida in iOS applications](https://blog.attify.com/bypass-jailbreak-detection-frida-ios-applications/)
 - [iOS Swift Anti-Jailbreak Bypass with Frida](https://syrion.me/blog/ios-swift-antijailbreak-bypass-frida/)
-- [Bypassing JailBreak Detection - DVIAv2 Part 2](https://philkeeble.com/ios/reverse-engineering/iOS-Bypass-Jailbreak/)
-- [Gotta Catch 'Em All: Frida & jailbreak detection](https://www.romainthomas.fr/post/21-07-pokemongo-anti-frida-jailbreak-bypass/) - Bypass Jailbreak Detection in PokemonGO.
+- [Bypassing JailBreak Detection - DVIAv2](https://philkeeble.com/ios/reverse-engineering/iOS-Bypass-Jailbreak/)
+- [Gotta Catch 'Em All: Frida & jailbreak detection](https://www.romainthomas.fr/post/21-07-pokemongo-anti-frida-jailbreak-bypass/)
 
 <a name="ssl-pinning-bypass-articles"></a>
 ### SSL Pinning Bypass Articles
@@ -187,6 +202,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [HackTricks iOS Pentesting Checklist](https://book.hacktricks.xyz/mobile-apps-pentesting/ios-pentesting-checklist)
 - [OWASP Mobile Application Security Verification Standard (MASVS)](https://github.com/OWASP/owasp-masvs)
 - [iOS CheatSheet](https://github.com/randorisec/MobileHackingCheatSheet/blob/master/LEGACY.md#ios-cheatsheet)
+- (iOS Client-Side Attacks and Tests)[https://appsec-labs.com/ios-attacks-tests/]
 
 ## Labs
 
@@ -207,12 +223,14 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 
 ## Writeups
 
+- [A deep dive into an NSO zero-click iMessage exploit: Remote Code Execution](https://googleprojectzero.blogspot.com/2021/12/a-deep-dive-into-nso-zero-click.html)
 - [Airdrop: Symbolic Link Following](https://breakpoint.sh/posts/airdrop-symbolic-link-following)
 - [XSS STORED IN FILES.SLACK.COM VIA XML/SVG FILE (IOS)](https://omespino.com/write-up-xss-stored-in-files-slack-com-via-xml-svg-file-ios-1000-usd/)
 - [Facebook iOS address bar spoofing](https://servicenger.com/mobile/facebook-ios-address-bar-spoofing/)
 
 ## Misc
 
+- [iOS Jailbreak Downloads](https://idevicecentral.com/jailbreak-tools/ios-jailbreak-downloads-download-jailbreak-tools-for-all-ios-versions/) - Download Jailbreak Tools for All iOS Versions.
 - [MOBEXLER](https://mobexler.com/) - A customised virtual machine, designed to help in penetration testing of Android & iOS applications.
 - [frida Workbench](https://marketplace.visualstudio.com/items?itemName=CodeColorist.vscode-frida) - Unofficial frida workbench for VSCode.
 - [Apple Configurator](https://apps.apple.com/app/apple-configurator-2/id1037126344) - Apple Configurator features a flexible, device-centric design that enables you to configure one or dozens of devices quickly and easily.
