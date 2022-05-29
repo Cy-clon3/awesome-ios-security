@@ -14,7 +14,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
   - [Reverse Engineering](#reverse-engineering-tools)
   - [Static Analysis](#static-analysis-tools)
   - [Dynamic Analysis](#dynamic-analysis-tools)
-    - [Frida Scripts](#frida-scripts)
+- [Frida Scripts](#frida-scripts)
 - [Tweaks](#tweaks)
   - [Reverse Engineering Tweaks](#reverse-engineering-tweaks)
   - [Jailbrek Detection Bypass Tweaks](#jailbrek-detection-bypass-tweaks)
@@ -93,8 +93,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [mitmproxy](https://mitmproxy.org/) - A free and open source interactive HTTPS proxy.
 - [Burp Suite](https://portswigger.net/burp) - An advanced HTTPS proxy software.
 
-<a name="frida-scripts"></a>
-### Frida Scripts
+## Frida Scripts
 - [FridaSwiftDump](https://github.com/neil-wu/FridaSwiftDump/) - A Frida script for retriving the Swift Object info from an running app.
 - [iOS Jailbreak Detection Bypass](https://github.com/neil-wu/FridaSwiftDump/) - A Frida script used for bypass iOS jailbreak detection by hooking some methods and functions.
 
