@@ -1,10 +1,11 @@
 <!--lint disable awesome-heading-->
+<!--lint disable double-link-->
+# Awesome iOS Security <a href="https://github.com/Ba2dones/awesome-ios-security/"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
 
-# Awesome iOS Security <a href="https://github.com/Ba2dones/"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-
-<a href="https://github.com/Ba2dones/"><img src="https://upload.wikimedia.org/wikipedia/commons/5/56/IOS_15_logo.png" align="right" width="70" alt="iOS 15"></a>
+<a href="https://github.com/Ba2dones/awesome-ios-security/"><img src="https://upload.wikimedia.org/wikipedia/commons/5/56/IOS_15_logo.png" align="right" width="70" alt="iOS 15"></a>
 
 > [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/30px-Apple_logo_grey.svg.png" width="16">]() A curated list of awesome iOS application security resources.
+<!--lint enable double-link-->
 
 A collection of awesome tools, books, courses, blog posts, and cool stuff about iOS Application Security and Penetration Testing.
 
@@ -29,7 +30,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
   - [Reverse Engineering Articles](#reverse-engineering-articles)
   - [Jailbrek Detection Bypass Articles](#jailbrek-detection-bypass-articles)
   - [SSL Pinning Bypass Articles](#ssl-pinning-bypass-articles)
-- [Checklists & CheatSheets](#checklists-CheatSheets)
+- [Checklists & CheatSheets](#checklists-cheatSheets)
 - [Labs](#labs)
   - [CTF](#ctf)
 - [Writeups](#writeups)
@@ -108,7 +109,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [CrackerXI](http://cydia.iphonecake.com/) - Tool to Decrypt iOS Apps, based on BFInject, Supports Electra as well as Unc0ver Jailbreaks.
 - [flexdecrypt](https://repo.packix.com/) - Command line tool for decrypting Mach-O binaries.
 - [Flex 3 Beta](https://getdelta.co/) - Flex gives you the power to modify apps and change their behavior, with no coding experience needed.
-- [OpenSSH](https://cydia.saurik.com/package/openssh/) - secure remote access between machines.
+- [OpenSSH](https://cydia.saurik.com/package/openssh/) - Secure remote access between machines.
 - [Apple File Conduit "2"](https://cydia.saurik.com/package/com.saurik.afc2d/) - Unlocks filesystem access over USB on Windows or macOS on jailbroken devices.
 - [AppSync Unified](https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified) - Enables the ability to install unsigned/fakesigned iOS applications.
 - [NewTerm 2](https://chariz.com/) - A powerful terminal app for iOS.
@@ -149,7 +150,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 ## Tutorials
 
 - [iOS + Frida Tutorial](https://youtu.be/h070-YZKOKE) - A 3-parts tutorial contains an introduction to Frida and iOS, low-level iOS interfaces (GCD, XPC, IOKit, Mach), and Objective-C instrumentation by @naehrdine.
-- [Exploiting Common iOS Apps' Vulnerabilities](https://www.youtube.com/watch?v=RLzbHHoEKo8&t=19s) - @ivRodriguezCA walks through some of the most common vulnerabilities on iOS apps and shows how to exploit them.
+- [Exploiting Common iOS Apps' Vulnerabilities](https://www.youtube.com/watch?v=RLzbHHoEKo8&t=19s) - A session by @ivRodriguezCA that walks through some of the most common vulnerabilities on iOS apps and shows how to exploit them.
 
 ## Articles
 
@@ -174,7 +175,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [Bypass Facebook SSL Certificate Pinning for iOS](https://www.cyclon3.com/bypass-facebook-ssl-certificate-pinning-for-ios)
 - [Bypass SSL Pinning with LLDB on AppStore iOS apps](https://itnext.io/bypass-ssl-pinning-with-lldb-in-ios-app-b78f9e7cc9cd)
 
-<a name="checklists-CheatSheets"></a>
+<a name="checklists-cheatSheets"></a>
 ## Checklists & CheatSheets
 
 - [HackTricks iOS Pentesting Checklist](https://book.hacktricks.xyz/mobile-apps-pentesting/ios-pentesting-checklist)
