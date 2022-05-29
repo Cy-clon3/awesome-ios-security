@@ -216,3 +216,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [Apple Platform Security](https://support.apple.com/en-gb/guide/security/welcome/web) - Explore Apple Platform Security.
 - [IPSW Downloads](https://ipsw.me/) - Download current and previous versions of Apple's iOS, iPadOS, macOS, watchOS, tvOS and audioOS firmware and receive notifications when new firmwares are released.
 - [theos](https://github.com/theos/theos) - A cross-platform suite of tools for building and deploying software for iOS and other platforms.
+
+## Contributing
+
+Your contributions are always welcome! Please read the [contribution guidelines](contributing.md) first.
