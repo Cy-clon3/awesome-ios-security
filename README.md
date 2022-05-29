@@ -30,7 +30,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
   - [Reverse Engineering Articles](#reverse-engineering-articles)
   - [Jailbrek Detection Bypass Articles](#jailbrek-detection-bypass-articles)
   - [SSL Pinning Bypass Articles](#ssl-pinning-bypass-articles)
-- [Checklists & Cheatsheets](#checklists-cheatsheets)
+- [Checklists & Cheatsheets](#checklists--cheatsheets)
 - [Labs](#labs)
   - [CTF](#ctf)
 - [Writeups](#writeups)
@@ -73,6 +73,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 
 <a name="dynamic-analysis-tools"></a>
 ### Dynamic Analysis Tools
+- [Corellium](https://www.corellium.com/) - The only platform offering ARM-based mobile device virtualization using a custom-built hypervisor for real-world accuracy and high performance.
 - [Frida](https://github.com/frida/frida) - Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.
 - [frida-gum](https://github.com/frida/frida-gum) - Cross-platform instrumentation and introspection library written in C.
 - [Fridax](https://github.com/NorthwaveSecurity/fridax) - Fridax enables you to read variables and intercept/hook functions in Xamarin/Mono JIT and AOT compiled iOS/Android applications.
@@ -98,7 +99,11 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 
 ## Frida Scripts
 - [FridaSwiftDump](https://github.com/neil-wu/FridaSwiftDump/) - A Frida script for retriving the Swift Object info from an running app.
-- [iOS Jailbreak Detection Bypass](https://github.com/neil-wu/FridaSwiftDump/) - A Frida script used for bypass iOS jailbreak detection by hooking some methods and functions.
+- [iOS 13 SSL Bypass](https://codeshare.frida.re/@federicodotta/ios13-pinning-bypass/) - SSL Pinning Bypass for iOS 13.
+- [iOS 12 SSL Bypass](https://codeshare.frida.re/@machoreverser/ios12-ssl-bypass/) - SSL Pinning Bypass for iOS 12.
+- [iOS Jailbreak Detection Bypass](https://codeshare.frida.re/@liangxiaoyi1024/ios-jailbreak-detection-bypass/) - A Frida script used for bypass iOS jailbreak detection by hooking some methods and functions.
+- [iOS App Static Analysis](https://codeshare.frida.re/@interference-security/ios-app-static-analysis/) - Script for iOS app's static analysis.
+- [Touch ID Bypass](https://highaltitudehacks.com/2018/07/26/ios-application-security-part-50-touch-id-bypass-with-frida/) - A Frida script for iOS Touch/Face ID Bypass.
 
 ## Tweaks
 
@@ -113,6 +118,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [Apple File Conduit "2"](https://cydia.saurik.com/package/com.saurik.afc2d/) - Unlocks filesystem access over USB on Windows or macOS on jailbroken devices.
 - [AppSync Unified](https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified) - Enables the ability to install unsigned/fakesigned iOS applications.
 - [NewTerm 2](https://chariz.com/) - A powerful terminal app for iOS.
+- [Filza File Manager](http://cydia.saurik.com/package/com.tigisoftware.filza/) - A Powerful File Manager for iOS with IPA Installer, DEB Installer, Web viewer, and Terminal.
 
 <a name="static-analysis-tweaks"></a>
 ### Jailbrek Detection Bypass Tweaks
@@ -189,7 +195,6 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [WaTF Bank](https://github.com/WaTF-Team/WaTF-Bank)
 - [Myriam](https://github.com/GeoSn0w/Myriam)
 
-
 <a name="ctf"></a>
 ### CTF
 - [OWASP UnCrackable Mobile Apps](https://github.com/OWASP/owasp-mstg/tree/master/Crackmes)
@@ -206,13 +211,11 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [XSS STORED IN FILES.SLACK.COM VIA XML/SVG FILE (IOS)](https://omespino.com/write-up-xss-stored-in-files-slack-com-via-xml-svg-file-ios-1000-usd/)
 - [Facebook iOS address bar spoofing](https://servicenger.com/mobile/facebook-ios-address-bar-spoofing/)
 
-
 ## Misc
 
 - [MOBEXLER](https://mobexler.com/) - A customised virtual machine, designed to help in penetration testing of Android & iOS applications.
 - [frida Workbench](https://marketplace.visualstudio.com/items?itemName=CodeColorist.vscode-frida) - Unofficial frida workbench for VSCode.
 - [Apple Configurator](https://apps.apple.com/app/apple-configurator-2/id1037126344) - Apple Configurator features a flexible, device-centric design that enables you to configure one or dozens of devices quickly and easily.
-- [Corellium](https://www.corellium.com/) - Corellium is the only platform offering ARM-based mobile device virtualization using a custom-built hypervisor for real-world accuracy and high performance.
 - [Apple Platform Security](https://support.apple.com/en-gb/guide/security/welcome/web) - Explore Apple Platform Security.
 - [IPSW Downloads](https://ipsw.me/) - Download current and previous versions of Apple's iOS, iPadOS, macOS, watchOS, tvOS and audioOS firmware and receive notifications when new firmwares are released.
 - [theos](https://github.com/theos/theos) - A cross-platform suite of tools for building and deploying software for iOS and other platforms.
