@@ -37,6 +37,10 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 
 <a name="reverse-engineering-tools"></a>
 ### Reverse Engineering Tools
+- [Hopper](https://www.hopperapp.com/) - A reverse engineering tool that will assist you in your static analysis of executable files.
+- [Ghidra](https://github.com/NationalSecurityAgency/ghidra) - A software reverse engineering (SRE) framework created and maintained by the National Security Agency Research Directorate.
+- [Radare2](https://github.com/radareorg/radare2) - UNIX-like reverse engineering framework and command-line toolset.
+- [Cutter](https://github.com/rizinorg/cutter) - Free and Open Source Reverse Engineering Platform powered by rizin.
 - [frida-ios-dump](https://github.com/AloneMonkey/frida-ios-dump) - A tool to pull a decrypted IPA from a jailbroken device.
 - [bagbak](https://github.com/ChiChou/bagbak) - Yet another frida based App decryptor. Requires jailbroken iOS device and frida.re.
 - [flexdecrypt](https://github.com/JohnCoates/flexdecrypt) - iOS App & Mach-O binary decryptor.
@@ -54,7 +58,6 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 
 <a name="static-analysis-tools"></a>
 ### Static Analysis Tools
-- [Hopper](https://www.hopperapp.com/) - A everse engineering tool that will assist you in your static analysis of executable files
 - [iLEAPP](https://github.com/abrignoni/iLEAPP) - iOS Logs, Events, And Plist Parser.
 - [Keychain Dumper](https://github.com/ptoomey3/Keychain-Dumper) - A tool to check which keychain items are available to an attacker once an iOS device has been jailbroken.
 - [BinaryCookieReader](https://github.com/as0ler/BinaryCookieReader) - A tool to read the binarycookie format of Cookies on iOS applications.
@@ -71,6 +74,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [frida-gum](https://github.com/frida/frida-gum) - Cross-platform instrumentation and introspection library written in C.
 - [Fridax](https://github.com/NorthwaveSecurity/fridax) - Fridax enables you to read variables and intercept/hook functions in Xamarin/Mono JIT and AOT compiled iOS/Android applications.
 - [r2frida](https://github.com/nowsecure/r2frida) - Radare2 and Frida better together.
+- [r2ghidra](https://github.com/radareorg/r2ghidra) - An integration of the Ghidra decompiler for radare2.
 - [iproxy](https://github.com/libimobiledevice/libusbmuxd) - A utility allows binding local TCP ports so that a connection to one (or more) of the local ports will be forwarded to the specified port (or ports) on a usbmux device.
 - [itunnel](https://code.google.com/archive/p/iphonetunnel-usbmuxconnectbyport/downloads) - Use to forward SSH via USB.
 - [objection](https://github.com/sensepost/objection) - A runtime mobile exploration toolkit, powered by Frida, built to help you assess the security posture of your mobile applications, without needing a jailbreak.
@@ -86,6 +90,8 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [ios-deploy](https://github.com/ios-control/ios-deploy) - Install and debug iOS apps from the command line. Designed to work on un-jailbroken devices.
 - [aah](https://github.com/zydeco/aah) - Run iOS arm64 binaries on x86_64 macOS, with varying degrees of success.
 - [LLDB](https://lldb.llvm.org/) - A next generation, high-performance debugger. 
+- [mitmproxy](https://mitmproxy.org/) - A free and open source interactive HTTPS proxy.
+- [Burp Suite](https://portswigger.net/burp) - An advanced HTTPS proxy software.
 
 <a name="frida-scripts"></a>
 ### Frida Scripts
@@ -121,6 +127,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 <a name="dynamic-analysis-tweaks"></a>
 ### SSL Pinning Bypass Tweaks
 - [SSL Kill Switch 2](https://github.com/nabla-c0d3/ssl-kill-switch2) - A blackbox tool to disable SSL/TLS certificate validation - including certificate pinning - within iOS and macOS applications.
+- [SSLBypass](https://github.com/evilpenguin/SSLBypass) - iOS SSL Pinning Bypass (iOS 8 - 14).
 
 ## Courses
 
