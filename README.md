@@ -27,8 +27,10 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
   - [Reverse Engineering Articles](#reverse-engineering-articles)
   - [Jailbrek Detection Bypass Articles](#jailbrek-detection-bypass-articles)
   - [SSL Pinning Bypass Articles](#ssl-pinning-bypass-articles)
-- [Checklists](#checklists)
+- [Checklists & CheatSheets](#checklists-&-CheatSheets)
 - [Labs](#labs)
+  - [CTF](#ctf)
+- [Writeups](#writeups)
 - [Misc](#misc)
 
 ## Tools
@@ -52,6 +54,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 
 <a name="static-analysis-tools"></a>
 ### Static Analysis Tools
+- [Hopper](https://www.hopperapp.com/) - A everse engineering tool that will assist you in your static analysis of executable files
 - [iLEAPP](https://github.com/abrignoni/iLEAPP) - iOS Logs, Events, And Plist Parser.
 - [Keychain Dumper](https://github.com/ptoomey3/Keychain-Dumper) - A tool to check which keychain items are available to an attacker once an iOS device has been jailbroken.
 - [BinaryCookieReader](https://github.com/as0ler/BinaryCookieReader) - A tool to read the binarycookie format of Cookies on iOS applications.
@@ -67,6 +70,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [Frida](https://github.com/frida/frida) - Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.
 - [frida-gum](https://github.com/frida/frida-gum) - Cross-platform instrumentation and introspection library written in C.
 - [Fridax](https://github.com/NorthwaveSecurity/fridax) - Fridax enables you to read variables and intercept/hook functions in Xamarin/Mono JIT and AOT compiled iOS/Android applications.
+- [r2frida](https://github.com/nowsecure/r2frida) - Radare2 and Frida better together.
 - [iproxy](https://github.com/libimobiledevice/libusbmuxd) - A utility allows binding local TCP ports so that a connection to one (or more) of the local ports will be forwarded to the specified port (or ports) on a usbmux device.
 - [itunnel](https://code.google.com/archive/p/iphonetunnel-usbmuxconnectbyport/downloads) - Use to forward SSH via USB.
 - [objection](https://github.com/sensepost/objection) - A runtime mobile exploration toolkit, powered by Frida, built to help you assess the security posture of your mobile applications, without needing a jailbreak.
@@ -80,6 +84,8 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [Dwarf](https://github.com/iGio90/Dwarf) - Full featured multi arch/os debugger built on top of PyQt5 and frida.
 - [FridaHookSwiftAlamofire](https://github.com/neil-wu/FridaHookSwiftAlamofire) - A frida tool that capture GET/POST HTTP requests of iOS Swift library 'Alamofire' and disable SSL Pinning.
 - [ios-deploy](https://github.com/ios-control/ios-deploy) - Install and debug iOS apps from the command line. Designed to work on un-jailbroken devices.
+- [aah](https://github.com/zydeco/aah) - Run iOS arm64 binaries on x86_64 macOS, with varying degrees of success.
+- [LLDB](https://lldb.llvm.org/) - A next generation, high-performance debugger. 
 
 <a name="frida-scripts"></a>
 ### Frida Scripts
@@ -105,7 +111,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [Shadow](https://ios.jjolano.me/depiction/web/me.jjolano.shadow.html) - A lightweight general jailbreak detection bypass tweak.
 - [A-Bypass](https://repo.co.kr/package/com.rpgfarm.a-bypass) - A tool that helps block some apps from accessing unauthorized space or calling functions not authorized by Apple due to jailbreak.
 - [FlyJB X](https://repo.xsf1re.kr/) - A jailbreak bypass that allows you to bypass the in-app jailbreak detection mechanism.
-- [Liberty Lite (Beta)](https://ryleyangus.com/repo/) - A general purpose jailbreak detection bypass patch..
+- [Liberty Lite (Beta)](https://ryleyangus.com/repo/) - A general purpose jailbreak detection bypass patch.
 - [vnodebypass](https://cydia.ichitaso.com/) - An expermental tool to hide jailbreak files for bypass detection.
 - [KernBypass (Unofficial)](https://cydia.ichitaso.com) - A kernel level jailbreak detection bypass tweak.
 - [HideJB](http://cydia.saurik.com/package/com.thuthuatjb.hidejb/) - Bybass jailbreak detection in certain apps.
@@ -135,6 +141,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 ## Tutorials
 
 - [iOS + Frida Tutorial](https://youtu.be/h070-YZKOKE) - A 3-parts tutorial contains an introduction to Frida and iOS, low-level iOS interfaces (GCD, XPC, IOKit, Mach), and Objective-C instrumentation by @naehrdine.
+- [Exploiting Common iOS Apps’ Vulnerabilities](https://www.youtube.com/watch?v=RLzbHHoEKo8&t=19s) - @ivRodriguezCA walks through some of the most common vulnerabilities on iOS apps and shows how to exploit them.
 
 ## Articles
 
@@ -159,20 +166,37 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [Bypass Facebook SSL Certificate Pinning for iOS](https://www.cyclon3.com/bypass-facebook-ssl-certificate-pinning-for-ios)
 - [Bypass SSL Pinning with LLDB on AppStore iOS apps](https://itnext.io/bypass-ssl-pinning-with-lldb-in-ios-app-b78f9e7cc9cd)
 
-## Checklists
+<a name="checklists-&-CheatSheets"></a>
+## Checklists & CheatSheets
 
 - [HackTricks iOS Pentesting Checklist](https://book.hacktricks.xyz/mobile-apps-pentesting/ios-pentesting-checklist)
 - [OWASP Mobile Application Security Verification Standard (MASVS)](https://github.com/OWASP/owasp-masvs)
+- [iOS CheatSheet](https://github.com/randorisec/MobileHackingCheatSheet/blob/master/LEGACY.md#ios-cheatsheet)
 
 ## Labs
 
 - [Damn Vulnerable iOS Application (DVIA)](https://damnvulnerableiosapp.com/)
 - [OWASP iGoat](https://igoatapp.com/)
 - [WaTF Bank](https://github.com/WaTF-Team/WaTF-Bank)
-- [OWASP UnCrackable Mobile Apps](https://github.com/OWASP/owasp-mstg/tree/master/Crackmes)
-- [Headbook-CTF](https://github.com/ivRodriguezCA/Headbook-ctf)
 - [Myriam](https://github.com/GeoSn0w/Myriam)
+
+
+<a name="ctf"></a>
+### CTF
+- [OWASP UnCrackable Mobile Apps](https://github.com/OWASP/owasp-mstg/tree/master/Crackmes)
 - [r2con Crackmes](https://github.com/hexploitable/r2con2020_r2frida)
+- [Headbook-CTF](https://github.com/ivRodriguezCA/Headbook-ctf)
+- [iOS CTF](https://www.optiv.com/insights/source-zero/blog/walkthrough-ios-ctf)
+- [DFA/CCSC Spring 2020 CTF – Apple iOS Forensics with iLEAPP](https://www.petermstewart.net/dfa-ccsc-spring-2020-ctf-apple-ios-forensics-with-ileapp/)
+- [NCC Con 2018 iOS CTF](https://ch1kpee.com/2018/01/08/ncc-con-2018-ios-ctf-solutions/)
+- [Cellebrite CTF 2021 - Beth's iPhone](https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-beths-iphone.html)
+
+## Writeups
+
+- [Airdrop: Symbolic Link Following](https://breakpoint.sh/posts/airdrop-symbolic-link-following)
+- [XSS STORED IN FILES.SLACK.COM VIA XML/SVG FILE (IOS)](https://omespino.com/write-up-xss-stored-in-files-slack-com-via-xml-svg-file-ios-1000-usd/)
+- [Facebook iOS address bar spoofing](https://servicenger.com/mobile/facebook-ios-address-bar-spoofing/)
+
 
 ## Misc
 
