@@ -1,9 +1,9 @@
 <!--lint disable awesome-heading-->
 
 <!--lint disable double-link-->
-# Awesome iOS Security <a href="https://github.com/Ba2dones/awesome-ios-security/"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+# Awesome iOS Security <a href="https://github.com/Cy-clon3/awesome-ios-security/"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
 
-<a href="https://github.com/Ba2dones/awesome-ios-security/"><img src="https://upload.wikimedia.org/wikipedia/commons/5/56/IOS_15_logo.png" align="right" width="70" alt="iOS 15"></a>
+<a href="https://github.com/Cy-clon3/awesome-ios-security/"><img src="https://upload.wikimedia.org/wikipedia/commons/5/56/IOS_15_logo.png" align="right" width="70" alt="iOS 15"></a>
 
 > [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/30px-Apple_logo_grey.svg.png" width="16">]() A curated list of awesome iOS application security resources.
 <!--lint enable double-link-->
