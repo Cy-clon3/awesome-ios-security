@@ -1,8 +1,8 @@
 <!--lint disable awesome-heading-->
 
-# Awesome iOS Security <a href="https://github.com/Ba2dones/awesome-ios-security"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+# Awesome iOS Security <a href="https://github.com/Ba2dones/"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
 
-<a href="https://github.com/Ba2dones/awesome-ios-security"><img src="https://upload.wikimedia.org/wikipedia/commons/5/56/IOS_15_logo.png" align="right" width="70" alt="iOS 15"></a>
+<a href="https://github.com/Ba2dones/"><img src="https://upload.wikimedia.org/wikipedia/commons/5/56/IOS_15_logo.png" align="right" width="70" alt="iOS 15"></a>
 
 > [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/30px-Apple_logo_grey.svg.png" width="16">]() A curated list of awesome iOS application security resources.
 
@@ -13,9 +13,9 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 ## Contents
 
 - [Tools](#tools)
-  - [Reverse Engineering](#reverse-engineering-tools)
-  - [Static Analysis](#static-analysis-tools)
-  - [Dynamic Analysis](#dynamic-analysis-tools)
+  - [Reverse Engineering Tools](#reverse-engineering-tools)
+  - [Static Analysis Tools](#static-analysis-tools)
+  - [Dynamic Analysis Tools](#dynamic-analysis-tools)
 - [Frida Scripts](#frida-scripts)
 - [Tweaks](#tweaks)
   - [Reverse Engineering Tweaks](#reverse-engineering-tweaks)
@@ -29,7 +29,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
   - [Reverse Engineering Articles](#reverse-engineering-articles)
   - [Jailbrek Detection Bypass Articles](#jailbrek-detection-bypass-articles)
   - [SSL Pinning Bypass Articles](#ssl-pinning-bypass-articles)
-- [Checklists & CheatSheets](#checklists-&-CheatSheets)
+- [Checklists & CheatSheets](#checklists-CheatSheets)
 - [Labs](#labs)
   - [CTF](#ctf)
 - [Writeups](#writeups)
@@ -45,7 +45,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [Cutter](https://github.com/rizinorg/cutter) - Free and Open Source Reverse Engineering Platform powered by rizin.
 - [frida-ios-dump](https://github.com/AloneMonkey/frida-ios-dump) - A tool to pull a decrypted IPA from a jailbroken device.
 - [bagbak](https://github.com/ChiChou/bagbak) - Yet another frida based App decryptor. Requires jailbroken iOS device and frida.re.
-- [flexdecrypt](https://github.com/JohnCoates/flexdecrypt) - iOS App & Mach-O binary decryptor.
+- [flexdecrypt](https://github.com/JohnCoates/flexdecrypt) - An iOS App & Mach-O binary decryptor.
 - [bfdecrypt](https://github.com/BishopFox/bfdecrypt) - Utility to decrypt App Store apps on jailbroken iOS 11.x.
 - [bfinject](https://github.com/BishopFox/bfinject) - Easy dylib injection for jailbroken 64-bit iOS 11.0 - 11.1.2. Compatible with Electra and LiberiOS jailbreaks.
 - [r2flutch](https://github.com/as0ler/r2flutch) - Yet another tool to decrypt iOS apps using r2frida.
@@ -60,7 +60,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 
 <a name="static-analysis-tools"></a>
 ### Static Analysis Tools
-- [iLEAPP](https://github.com/abrignoni/iLEAPP) - iOS Logs, Events, And Plist Parser.
+- [iLEAPP](https://github.com/abrignoni/iLEAPP) - An iOS Logs, Events, And Plist Parser.
 - [Keychain Dumper](https://github.com/ptoomey3/Keychain-Dumper) - A tool to check which keychain items are available to an attacker once an iOS device has been jailbroken.
 - [BinaryCookieReader](https://github.com/as0ler/BinaryCookieReader) - A tool to read the binarycookie format of Cookies on iOS applications.
 - [PList Viewer](https://github.com/TingPing/plist-viewer) - Gtk application to view property list files.
@@ -128,7 +128,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 <a name="dynamic-analysis-tweaks"></a>
 ### SSL Pinning Bypass Tweaks
 - [SSL Kill Switch 2](https://github.com/nabla-c0d3/ssl-kill-switch2) - A blackbox tool to disable SSL/TLS certificate validation - including certificate pinning - within iOS and macOS applications.
-- [SSLBypass](https://github.com/evilpenguin/SSLBypass) - iOS SSL Pinning Bypass (iOS 8 - 14).
+- [SSLBypass](https://github.com/evilpenguin/SSLBypass) - An iOS SSL Pinning Bypass Tweak (iOS 8 - 14).
 
 ## Courses
 
@@ -174,7 +174,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [Bypass Facebook SSL Certificate Pinning for iOS](https://www.cyclon3.com/bypass-facebook-ssl-certificate-pinning-for-ios)
 - [Bypass SSL Pinning with LLDB on AppStore iOS apps](https://itnext.io/bypass-ssl-pinning-with-lldb-in-ios-app-b78f9e7cc9cd)
 
-<a name="checklists-&-CheatSheets"></a>
+<a name="checklists-CheatSheets"></a>
 ## Checklists & CheatSheets
 
 - [HackTricks iOS Pentesting Checklist](https://book.hacktricks.xyz/mobile-apps-pentesting/ios-pentesting-checklist)
