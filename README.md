@@ -202,7 +202,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [HackTricks iOS Pentesting Checklist](https://book.hacktricks.xyz/mobile-apps-pentesting/ios-pentesting-checklist)
 - [OWASP Mobile Application Security Verification Standard (MASVS)](https://github.com/OWASP/owasp-masvs)
 - [iOS CheatSheet](https://github.com/randorisec/MobileHackingCheatSheet/blob/master/LEGACY.md#ios-cheatsheet)
-- (iOS Client-Side Attacks and Tests)[https://appsec-labs.com/ios-attacks-tests/]
+- [iOS Client-Side Attacks and Tests][https://appsec-labs.com/ios-attacks-tests/]
 
 ## Labs
 
