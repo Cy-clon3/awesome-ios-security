@@ -30,7 +30,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
   - [Reverse Engineering Articles](#reverse-engineering-articles)
   - [Jailbrek Detection Bypass Articles](#jailbrek-detection-bypass-articles)
   - [SSL Pinning Bypass Articles](#ssl-pinning-bypass-articles)
-- [Checklists & CheatSheets](#checklists-cheatSheets)
+- [Checklists & Cheatsheets](#checklists-cheatsheets)
 - [Labs](#labs)
   - [CTF](#ctf)
 - [Writeups](#writeups)
@@ -175,8 +175,8 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [Bypass Facebook SSL Certificate Pinning for iOS](https://www.cyclon3.com/bypass-facebook-ssl-certificate-pinning-for-ios)
 - [Bypass SSL Pinning with LLDB on AppStore iOS apps](https://itnext.io/bypass-ssl-pinning-with-lldb-in-ios-app-b78f9e7cc9cd)
 
-<a name="checklists-cheatSheets"></a>
-## Checklists & CheatSheets
+<a name="checklists-cheatsheets"></a>
+## Checklists & Cheatsheets
 
 - [HackTricks iOS Pentesting Checklist](https://book.hacktricks.xyz/mobile-apps-pentesting/ios-pentesting-checklist)
 - [OWASP Mobile Application Security Verification Standard (MASVS)](https://github.com/OWASP/owasp-masvs)
