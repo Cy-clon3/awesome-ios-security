@@ -1,6 +1,8 @@
-# Awesome iOS Security [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<!--lint disable awesome-heading-->
 
-[<img src="https://upload.wikimedia.org/wikipedia/commons/5/56/IOS_15_logo.png" align="right" width="70">]()
+# Awesome iOS Security <a href="https://github.com/Ba2dones/awesome-ios-security"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+
+<a href="https://github.com/Ba2dones/awesome-ios-security"><img src="https://upload.wikimedia.org/wikipedia/commons/5/56/IOS_15_logo.png" align="right" width="70" alt="iOS 15"></a>
 
 > [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/30px-Apple_logo_grey.svg.png" width="16">]() A curated list of awesome iOS application security resources.
 
@@ -21,8 +23,8 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
   - [SSL Pinning Bypass Tweaks](#ssl-pinning-bypass-tweaks)
 - [Courses](#courses)
 - [Books](#books)
-- [Tutorials](tutorials)
-- [Articles](articles)
+- [Tutorials](#tutorials)
+- [Articles](#articles)
   - [Penetration Testing Articles](#penetration-testing-articles)
   - [Reverse Engineering Articles](#reverse-engineering-articles)
   - [Jailbrek Detection Bypass Articles](#jailbrek-detection-bypass-articles)
@@ -54,7 +56,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [jtool](http://www.newosxbook.com/tools/jtool.html) - An app inspector, disassembler, and signing utility for the macOS, iOS.
 - [Sideloadly](https://sideloadly.io/) - An app to sideload your favorite games and apps to Jailbroken & Non-Jailbroken iOS devices.
 - [Cydia Impactor](http://www.cydiaimpactor.com/) - A GUI tool for sideloading iOS application.
-- [iOS App Signer](https://github.com/DanTheMan827/ios-app-signer) - an app for OS X that can (re)sign apps and bundle them into ipa files that are ready to be installed on an iOS device.
+- [iOS App Signer](https://github.com/DanTheMan827/ios-app-signer) - An app for macOS that can (re)sign apps and bundle them into ipa files that are ready to be installed on an iOS device.
 
 <a name="static-analysis-tools"></a>
 ### Static Analysis Tools
@@ -62,7 +64,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [Keychain Dumper](https://github.com/ptoomey3/Keychain-Dumper) - A tool to check which keychain items are available to an attacker once an iOS device has been jailbroken.
 - [BinaryCookieReader](https://github.com/as0ler/BinaryCookieReader) - A tool to read the binarycookie format of Cookies on iOS applications.
 - [PList Viewer](https://github.com/TingPing/plist-viewer) - Gtk application to view property list files.
-- [XMachOViewer](https://github.com/horsicq/XMachOViewer) - A Mach-O viewer for Windows, Linux and MacOS.
+- [XMachOViewer](https://github.com/horsicq/XMachOViewer) - A Mach-O viewer for Windows, Linux and macOS.
 - [MachO-Explorer](https://github.com/DeVaukz/MachO-Explorer) - A graphical Mach-O viewer for macOS. Powered by Mach-O Kit.
 - [iFunbox](https://www.i-funbox.com/en/index.html) - A general file management software for iPhone and other Apple products.
 - [3uTools](http://www.3u.com/) - An All-in-One management software for iOS devices.
@@ -130,24 +132,24 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 
 ## Courses
 
-- [Pentesting iOS Applications](https://www.pentesteracademy.com/course?id=2) - by PentesterAcademy.
-- [iOS Pentesting](https://www.youtube.com/playlist?list=PL5Fxd3nu70eyqiqrVlD9QMoaOARr082TA) - by Mantis.
-- [iOS Application Pentesting Series](https://www.youtube.com/playlist?list=PLm_U3e1sSTMvgj1sbZ2Ng6VbxMWw8Wyk9) - by Sateesh Verma.
-- [IOS: Penetration Testing](https://www.youtube.com/playlist?list=PLanZMaPa4zzyGJ7IiW2zQNC40pWf2-7uE) - by Noisy Hacker.
+- [Pentesting iOS Applications](https://www.pentesteracademy.com/course?id=2) - By PentesterAcademy.
+- [iOS Pentesting](https://www.youtube.com/playlist?list=PL5Fxd3nu70eyqiqrVlD9QMoaOARr082TA) - By Mantis.
+- [iOS Application Pentesting Series](https://www.youtube.com/playlist?list=PLm_U3e1sSTMvgj1sbZ2Ng6VbxMWw8Wyk9) - By Sateesh Verma.
+- [IOS: Penetration Testing](https://www.youtube.com/playlist?list=PLanZMaPa4zzyGJ7IiW2zQNC40pWf2-7uE) - By Noisy Hacker.
 
 ## Books
 
-- [iOS Hacking Guide](https://web.securityinnovation.com/hacking-ios-applications) - by Security Innovation.
-- [iOS Application Security: The Definitive Guide for Hackers and Developers](https://nostarch.com/iossecurity) - by David Thiel.
-- [iOS Penetration Testing: A Definitive Guide to iOS Security](https://link.springer.com/book/10.1007/978-1-4842-2355-0) - by Kunal Relan.
-- [Learning iOS Penetration Testing](https://www.packtpub.com/product/learning-ios-penetration-testing/9781785883255) - by Swaroop Yermalkar.
-- [Hacking and Securing iOS Applications](https://www.oreilly.com/library/view/hacking-and-securing/9781449325213/) - by Jonathan Zdziarski.
-- [iOS Hacker's Handbook](https://www.amazon.com/iOS-Hackers-Handbook-Charlie-Miller/dp/1118204123) - by Charlie Miller.
+- [iOS Hacking Guide](https://web.securityinnovation.com/hacking-ios-applications) - By Security Innovation.
+- [iOS Application Security: The Definitive Guide for Hackers and Developers](https://nostarch.com/iossecurity) - By David Thiel.
+- [iOS Penetration Testing: A Definitive Guide to iOS Security](https://link.springer.com/book/10.1007/978-1-4842-2355-0) - By Kunal Relan.
+- [Learning iOS Penetration Testing](https://www.packtpub.com/product/learning-ios-penetration-testing/9781785883255) - By Swaroop Yermalkar.
+- [Hacking and Securing iOS Applications](https://www.oreilly.com/library/view/hacking-and-securing/9781449325213/) - By Jonathan Zdziarski.
+- [iOS Hacker's Handbook](https://www.amazon.com/iOS-Hackers-Handbook-Charlie-Miller/dp/1118204123) - By Charlie Miller.
 
 ## Tutorials
 
 - [iOS + Frida Tutorial](https://youtu.be/h070-YZKOKE) - A 3-parts tutorial contains an introduction to Frida and iOS, low-level iOS interfaces (GCD, XPC, IOKit, Mach), and Objective-C instrumentation by @naehrdine.
-- [Exploiting Common iOS Apps’ Vulnerabilities](https://www.youtube.com/watch?v=RLzbHHoEKo8&t=19s) - @ivRodriguezCA walks through some of the most common vulnerabilities on iOS apps and shows how to exploit them.
+- [Exploiting Common iOS Apps' Vulnerabilities](https://www.youtube.com/watch?v=RLzbHHoEKo8&t=19s) - @ivRodriguezCA walks through some of the most common vulnerabilities on iOS apps and shows how to exploit them.
 
 ## Articles
 
