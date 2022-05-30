@@ -58,6 +58,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [jtool](http://www.newosxbook.com/tools/jtool.html) - An app inspector, disassembler, and signing utility for the macOS, iOS.
 - [Sideloadly](https://sideloadly.io/) - An app to sideload your favorite games and apps to Jailbroken & Non-Jailbroken iOS devices.
 - [Cydia Impactor](http://www.cydiaimpactor.com/) - A GUI tool for sideloading iOS application.
+- [AltStore](https://altstore.io/) - Allows to sideload other apps (.ipa files) onto iOS device.
 - [iOS App Signer](https://github.com/DanTheMan827/ios-app-signer) - An app for macOS that can (re)sign apps and bundle them into ipa files that are ready to be installed on an iOS device.
 
 <a name="static-analysis-tools"></a>
