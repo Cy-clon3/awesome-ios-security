@@ -34,7 +34,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
   - [SSL Pinning Bypass Articles](#ssl-pinning-bypass-articles)
 - [Checklists & Cheatsheets](#checklists--cheatsheets)
 - [Labs](#labs)
-  - [CTF](#ctf)
+- [CTF](#ctf)
 - [Writeups](#writeups)
 - [Misc](#misc)
 
@@ -213,8 +213,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [WaTF Bank](https://github.com/WaTF-Team/WaTF-Bank)
 - [Myriam](https://github.com/GeoSn0w/Myriam)
 
-<a name="ctf"></a>
-### CTF
+## CTF
 - [OWASP UnCrackable Mobile Apps](https://github.com/OWASP/owasp-mstg/tree/master/Crackmes)
 - [r2con Crackmes](https://github.com/hexploitable/r2con2020_r2frida)
 - [Headbook-CTF](https://github.com/ivRodriguezCA/Headbook-ctf)
