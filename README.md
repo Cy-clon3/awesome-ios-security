@@ -61,6 +61,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [Cydia Impactor](http://www.cydiaimpactor.com/) - A GUI tool for sideloading iOS application.
 - [AltStore](https://altstore.io/) - Allows to sideload other apps (.ipa files) onto iOS device.
 - [iOS App Signer](https://github.com/DanTheMan827/ios-app-signer) - An app for macOS that can (re)sign apps and bundle them into ipa files that are ready to be installed on an iOS device.
+- [ipsw](https://github.com/blacktop/ipsw) - iOS/macOS Research Swiss Army Knife.
 
 <a name="static-analysis-tools"></a>
 ### Static Analysis Tools
@@ -96,7 +97,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [FridaHookSwiftAlamofire](https://github.com/neil-wu/FridaHookSwiftAlamofire) - A frida tool that capture GET/POST HTTP requests of iOS Swift library 'Alamofire' and disable SSL Pinning.
 - [ios-deploy](https://github.com/ios-control/ios-deploy) - Install and debug iOS apps from the command line. Designed to work on un-jailbroken devices.
 - [aah](https://github.com/zydeco/aah) - Run iOS arm64 binaries on x86_64 macOS, with varying degrees of success.
-- [LLDB](https://lldb.llvm.org/) - A next generation, high-performance debugger. 
+- [LLDB](https://lldb.llvm.org/) - A next generation, high-performance debugger.
 - [mitmproxy](https://mitmproxy.org/) - A free and open source interactive HTTPS proxy.
 - [Burp Suite](https://portswigger.net/burp) - An advanced HTTPS proxy software.
 
