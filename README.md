@@ -181,6 +181,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [Anti Anti Hooking/Debugging - DVIAv2](https://philkeeble.com/ios/reverse-engineering/iOS-Anti-Anti-Hooking/)
 - [Runtime Manipulation - DVIAv2](https://philkeeble.com/ios/reverse-engineering/iOS-Runtime-Manipulation/)
 - [Reverse Engineering iOS Apps - iOS 11 Edition](https://ivrodriguez.com/reverse-engineer-ios-apps-ios-11-edition-part2/)
+- [Advanced Frida Usage Part 1 – IOS Encryption Libraries](https://8ksec.io/advanced-frida-usage-part-1-ios-encryption-libraries-8ksec-blogs/)
 
 
 <a name="jailbrek-detection-bypass-articles"></a>
