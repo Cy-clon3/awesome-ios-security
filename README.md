@@ -221,6 +221,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [DFA/CCSC Spring 2020 CTF – Apple iOS Forensics with iLEAPP](https://www.petermstewart.net/dfa-ccsc-spring-2020-ctf-apple-ios-forensics-with-ileapp/)
 - [NCC Con 2018 iOS CTF](https://ch1kpee.com/2018/01/08/ncc-con-2018-ios-ctf-solutions/)
 - [Cellebrite CTF 2021 - Beth's iPhone](https://www.stark4n6.com/2021/10/cellebrite-ctf-2021-beths-iphone.html)
+- [8kSec Battlegrounds](https://8ksec.io/battle/)
 
 ## Writeups
 
