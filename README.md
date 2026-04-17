@@ -85,6 +85,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [iproxy](https://github.com/libimobiledevice/libusbmuxd) - A utility allows binding local TCP ports so that a connection to one (or more) of the local ports will be forwarded to the specified port (or ports) on a usbmux device.
 - [itunnel](https://code.google.com/archive/p/iphonetunnel-usbmuxconnectbyport/downloads) - Use to forward SSH via USB.
 - [objection](https://github.com/sensepost/objection) - A runtime mobile exploration toolkit, powered by Frida, built to help you assess the security posture of your mobile applications, without needing a jailbreak.
+- [NullKia](https://github.com/bad-antics/nullkia) - Mobile security framework supporting 18 manufacturers including Apple, with baseband exploitation, TEE research, and eSIM security tools.
 - [Grapefruit](https://github.com/ChiChou/grapefruit) - Runtime Application Instruments for iOS.
 - [Passionfruit](https://github.com/chaitin/passionfruit) - Simple iOS app blackbox assessment tool, powered by frida 12.x and vuejs.
 - [Runtime Mobile Security (RMS)](https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security) - Runtime Mobile Security (RMS), powered by FRIDA, is a powerful web interface that helps you to manipulate Android and iOS Apps at Runtime.
