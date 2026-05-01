@@ -99,6 +99,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [LLDB](https://lldb.llvm.org/) - A next generation, high-performance debugger. 
 - [mitmproxy](https://mitmproxy.org/) - A free and open source interactive HTTPS proxy.
 - [Burp Suite](https://portswigger.net/burp) - An advanced HTTPS proxy software.
+- [Mira](https://github.com/vwww-droid/Mira) - Runtime protection analysis platform for third-party Android and iOS apps, enabling AI to use host-app-side shell, Java, Native, and Frida capabilities for environment risk detection and hardening validation.
 
 ## Tweaks
 
