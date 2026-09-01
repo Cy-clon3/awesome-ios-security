@@ -212,6 +212,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [OWASP iGoat](https://igoatapp.com/)
 - [WaTF Bank](https://github.com/WaTF-Team/WaTF-Bank)
 - [Myriam](https://github.com/GeoSn0w/Myriam)
+- [EvilCorp iOS](https://github.com/jankesec/evilcorp-ios) - Intentionally vulnerable iOS app built with SwiftUI for mobile security training (30 challenges mapped to OWASP MASVS).
 
 ## CTF
 - [OWASP UnCrackable Mobile Apps](https://github.com/OWASP/owasp-mstg/tree/master/Crackmes)
