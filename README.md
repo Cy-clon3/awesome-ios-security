@@ -42,6 +42,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 
 <a name="reverse-engineering-tools"></a>
 ### Reverse Engineering Tools
+- [iosy](https://opensyntaxx.com/) - A commercial CLI decompiler from .ipa files to Swift sources (Xcode projects).
 - [Hopper](https://www.hopperapp.com/) - A reverse engineering tool that will assist you in your static analysis of executable files.
 - [Ghidra](https://github.com/NationalSecurityAgency/ghidra) - A software reverse engineering (SRE) framework created and maintained by the National Security Agency Research Directorate.
 - [Radare2](https://github.com/radareorg/radare2) - UNIX-like reverse engineering framework and command-line toolset.
