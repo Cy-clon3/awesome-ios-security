@@ -242,3 +242,4 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 ## Contributing
 
 Your contributions are always welcome! Please read the [contribution guidelines](contributing.md) first.
+- [CleanSlate](https://github.com/devshield-tech/botox-android) - Remotely wipe your Android device if it is lost or stolen.
