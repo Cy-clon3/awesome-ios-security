@@ -48,6 +48,7 @@ A collection of awesome tools, books, courses, blog posts, and cool stuff about 
 - [Cutter](https://github.com/rizinorg/cutter) - Free and Open Source Reverse Engineering Platform powered by rizin.
 - [frida-ios-dump](https://github.com/AloneMonkey/frida-ios-dump) - A tool to pull a decrypted IPA from a jailbroken device.
 - [bagbak](https://github.com/ChiChou/bagbak) - Yet another frida based App decryptor. Requires jailbroken iOS device and frida.re.
+- [IPA-Decrypt](https://github.com/Re13orn/IPA-Decrypt) - Graphical App Store and TestFlight IPA downloader, FairPlay decryption tool and credential manager for macOS and iOS.
 - [flexdecrypt](https://github.com/JohnCoates/flexdecrypt) - An iOS App & Mach-O binary decryptor.
 - [bfdecrypt](https://github.com/BishopFox/bfdecrypt) - Utility to decrypt App Store apps on jailbroken iOS 11.x.
 - [bfinject](https://github.com/BishopFox/bfinject) - Easy dylib injection for jailbroken 64-bit iOS 11.0 - 11.1.2. Compatible with Electra and LiberiOS jailbreaks.
